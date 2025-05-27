@@ -15,4 +15,4 @@
 
 
 ## Work History
--iThole ICT Foundation
+- iThole ICT Foundation
