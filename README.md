@@ -1,6 +1,5 @@
 # freshmemba.github.io
 
----
 ## Projects
 ### Project 1
 - Description
@@ -9,8 +8,7 @@
 ### Project 2
 - Description
 - Links
----
-___
+
 ## Education
 - WeThinkCode_
 
