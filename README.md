@@ -19,6 +19,7 @@ Welcome to my professional portfolio. I’m a Computer Science student passionat
 ---
 
 ## 🎓 Education
+
 ### **BSc in Computer Science**
 - Institution: Nelson Mandela University
 - Major(s): Computer Science and Statistics
