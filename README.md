@@ -36,6 +36,7 @@ Welcome to my professional portfolio. I’m a Computer Science student passionat
 - Specialty: End User Computing
 - Duration: Jan 2016 - Dec 2016
 - NQF: 3
+
 ---
 
 ## 💼 Work Experience
