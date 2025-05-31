@@ -1,7 +1,7 @@
 title: "Sibonelo Mazibuko"
 logo: /assets/head&shoulders.png
 description: Computer Science Student | Data Science Enthusiast
-theme: minimal-mistakes
+theme: jekyll-theme-minimal
 navigation:
   - title: "Home"
     url: /
