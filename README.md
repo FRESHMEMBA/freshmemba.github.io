@@ -9,7 +9,7 @@ Welcome to my professional portfolio. I’m a Computer Science student passionat
 ### ✅ Task Tracker API
 - A simple REST API to manage tasks/todos, supporting basic CRUD (Create, Read, Update, Delete) operations.
 - Features: API Design, Socket Programming, Database Persistence
-- [🔗 GitHub Repo](https://github.com/FRESHMEMBA/task-tracker)
+- [🔗 GitHub Repo](https://github.com/FRESHMEMBA/tasktracker)
 
 ### 🎉 Birthday Web App
 - Celebrates birthdays with interactive visuals and animations
