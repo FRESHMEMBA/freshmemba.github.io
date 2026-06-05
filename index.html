@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/stylesheet.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    </head>
+    <body>
+        <div id="page">
+            <header>
+                <h1>Welcome to My Portfolio</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main>
+                <section id="hero">
+                    <div class="hero-content">
+                        <div class="hero-image">
+                            <img src="images/profile-photo.png"
+                                alt="Sibonelo Mazibuko">
+                        </div>
+                        <div class="hero-text">
+                            <h2>Hi 👋 I'm Sibonelo Mazibuko</h2>
+                            <p>
+                                Computer Science Student |
+                                Aspiring Software Developer
+                            </p>
+                            <a href="#projects" class="btn">View My Work</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="about">
+                    <h2>About Me</h2>
+
+                    <p>
+                        I am a Computer Science student with a passion
+                        for software development, data engineering,
+                        problem solving, and technology.
+                    </p>
+
+                    <p>
+                        I have experience developing web applications,
+                        APIs, data pipelines and software projects using
+                        multiple programming languages.
+                    </p>
+                </section>
+
+                <section id="skills">
+                    <h2>Skills</h2>
+
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <h3>Programming</h3>
+                            <p>C# | Java | Python</p>
+                        </div>
+
+                        <div class="skill-card">
+                            <h3>Web Development</h3>
+                            <p>HTML | CSS | JavaScript | jQuery</p>
+                        </div>
+
+                        <div class="skill-card">
+                            <h3>Tools</h3>
+                            <p>Git | Linux | Docker</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="projects">
+                    <h2>Projects</h2>
+                    <div class="project-container">
+                        <article class="project-card" data-link="https://freshmemba.github.io/bday/"">
+                            <h3>Birthday Web App</h3>
+                                <p>Developed a web application to celebrate birthdays with personalized messages and interactive features.</p>
+                                <span class="hover-message">[Click to View Project]</span>
+                                <p class="bottom">HTML | CSS | JAVASCRIPT</p>
+                        </article>
+
+                        <article class="project-card" data-link="https://freshmemba.github.io/time-travel-guide/">
+                            <h3>Time Travel Guide App</h3>
+                                <p>Built a simple time travel guide application with a modern UI.</p>
+                                <span class="hover-message">[Click to View Project]</span>
+                                <p class="bottom">HTML | CSS</p>
+                        </article>
+
+                        <article class="project-card" data-link="https://freshmemba.github.io/funland-amusement-park/">
+                            <h3>Amusement Park App</h3>
+                                <p>Developed a web app that manages amusement park operations.</p>
+                                <span class="hover-message">[Click to View Project]</span>
+                                <p class="bottom">HTML | CSS | JavaScript | JQuery</p>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="education">
+                    <h2>Education</h2>
+
+                    <div class="education-container">
+                        <article class="education-card">
+                        <h3>BSc in Computer Science</h3>
+                            <dl>
+                                <dt>Institution</dt>
+                                <dd>Nelson Mandela University</dd>
+
+                                <dt>Major(s)</dt>
+                                <dd>Computer Science and Statistics</dd>
+
+                                <dt>Relevant Coursework</dt>
+                                <dd>Web Systems, Data Structures & Algorithms</dd>
+
+                                <dt>NQF</dt>
+                                <dd>Level 7</dd>
+
+                                <dt>Status</dt>
+                                <dd>In Progress</dd>
+                            </dl>
+                        </article>
+
+                        <article class="education-card">
+                            <h3>Software Engineering (Systems Development)</h3>
+                            <dl>
+                                <dt>Institution</dt>
+                                <dd>WeThinkCode_</dd>
+
+                                <dt>Elective</dt>
+                                <dd>Systems Integration</dd>
+
+                                <dt>Relevant Coursework</dt>
+                                <dd>Python, Java, API Development, Web Applications</dd>
+
+                                <dt>NQF</dt>
+                                <dd>Level 5</dd>
+
+                                <dt>Status</dt>
+                                <dd>Complete</dd>
+                            </dl>
+                        </article>
+
+                        <article class="education-card">
+                            <h3>Information Technology Learnership</h3>
+                            <dl>
+                                <dt>Institution</dt>
+                                <dd>Qhakaza</dd>
+
+                                <dt>Specialization</dt>
+                                <dd>End User Computing</dd>
+
+                                <dt>Relevant Coursework</dt>
+                                <dd>Microsoft Office, Networking Fundamentals</dd>
+
+                                <dt>NQF</dt>
+                                <dd>Level 3</dd>
+
+                                <dt>Status</dt>
+                                <dd>Complete</dd>
+                            </dl>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="contact">
+                    <h2>Contact Me</h2>
+                    <form action="mailto:s231676085@mandela.ac.za">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required>
+                        <br>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                        <br>
+                        <label for="subject">Subject</label>
+                        <select id="subject">
+                            <option>Job Opportunity</option>
+                            <option>Freelance Work</option>
+                            <option>Internship</option>
+                            <option>General Enquiry</option>
+                        </select>
+                        <br>
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="6"></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+
+                    
+
+                </section>
+
+            </main>
+            <footer>
+                <div class="socials">
+                    <a href="https://github.com/FRESHMEMBA" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <a href="https:///www.linkedin.com/in/sibonelo-mazibuko-14808b193/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+
+                    <a href="https://x.com/mazibukosb1" target="_blank">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+
+                    <a href="mailto:mazibukosibonelo@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+
+                </div>
+                <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+            </footer>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="scripts/script.js"></script>
+    </body>
+</html>
